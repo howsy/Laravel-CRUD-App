@@ -1,0 +1,102 @@
+
+            body{
+                font-family: 'Nunito',sans-serif
+            }
+
+            nav a{
+                color: black;
+                text-decoration: none;
+                padding: .5rem;
+            }
+            .content{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+
+            }
+
+            a{
+                text-decoration: none;
+                color: black
+            }
+
+            li{
+                list-style-type: none;
+                width: 300px;
+                border: 1px solid;
+                border-radius: 5px;
+                background: antiquewhite;
+                padding: 10px;
+                margin: 5px;
+            }
+            li:hover{
+                background-color: #f74747;
+            }
+            .head{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                margin: 0 auto;
+                border: 1px solid #ccc;
+                padding: 20px;
+                border-radius: 5px;
+              }
+
+              label {
+                font-weight: bold;
+                margin-bottom: 5px;
+              }
+
+              input[type="text"],
+              input[type="text"],
+              input[type="text"] {
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+                font-size: 16px;
+              }
+
+              button[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+              }
+
+              button[type="submit"]:hover {
+                background-color: #3e8e41;
+              }
+              .form-error{
+                margin: 0;
+                font-size: 0.8rem;
+                color: red;
+              }
+              .delete-btn{
+                background-color: #ad1414;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+              }
+              .a{
+                align-content: left;
+                display: block;
+                border: none;
+                margin: 5px;
+                padding: 0;
+              }
+
